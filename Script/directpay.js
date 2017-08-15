@@ -26,7 +26,7 @@ redirect_to_directpay = function(){
     }
 });*/
 	
-	window.location.href='http://192.168.8.103:8000/default/web/purchase?id='+data.id+'&merchantId='+data.merchantId+'&amount='+data.amount;
+	window.location.href='http://13.58.144.197/default/web/purchase?id='+data.id+'&merchantId='+data.merchantId+'&amount='+data.amount;
 	
 	
 	
