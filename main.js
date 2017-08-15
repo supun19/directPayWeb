@@ -6,6 +6,8 @@ app.use(express.static(__dirname + '/View'));
 //Store all HTML files in view folder.
 app.use(express.static(__dirname + '/Script'));
 
+app.use(express.static(__dirname + '/Assert'));
+
 app.get('/',function(req,res){
   res.sendFile(path.join('/index.html'));
   //__dirname : It will resolve to your project folder.
