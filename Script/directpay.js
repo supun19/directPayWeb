@@ -8,6 +8,7 @@ redirect_to_directpay = function(){
 	var  transactionId = "123456";
 	var data ={"id":"123456","merchantId":"8369c741-b4f9-49cf-9c1c-53ed5ed964da","amount":"1200.00","rUrl":"localhost:5002"};
 
+
 	
 /*	$.ajax({
     type: "POST",
